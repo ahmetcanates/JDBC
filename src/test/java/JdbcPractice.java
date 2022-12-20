@@ -29,6 +29,7 @@ public class JdbcPractice {
             emails.add(rs1.getString(1));
         }
         System.out.println("emails = " + emails);
+
         Assert.assertTrue(emails.contains("zeynep05@gmail.com"));
         statement.close();
         System.out.println(statement.isClosed());

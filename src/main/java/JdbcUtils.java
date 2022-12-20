@@ -4,7 +4,6 @@ import java.util.List;
 
 public class JdbcUtils {
 
-
     private static Connection connection;
     private static Statement statement;
 
